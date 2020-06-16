@@ -1,0 +1,11 @@
+#search-bar {
+  background: #F9F9F9;
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  width: 50%;
+  padding: .5em;
+
+  &:focus {
+    outline: none;
+  }
+}

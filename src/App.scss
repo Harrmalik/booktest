@@ -1,0 +1,26 @@
+body {
+  background-color: #F9F9F9;
+  padding: 1em;
+
+  h2, h3, p {
+    color: #586C84;
+  }
+
+  button {
+    color: white;
+    background-color: #2650BF;
+    border-radius: 5px;
+    border: none;
+    padding: 1em;
+
+    &.button--header {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+    }
+
+    &.button--cancel {
+      background-color: darkgrey;
+    }
+  }
+}
